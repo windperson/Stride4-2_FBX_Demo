@@ -10,21 +10,21 @@ Hierarchy:
         - ref!! 5817852e-c87d-4e5c-bb10-8658c3d148b5
         - ref!! ff242851-34ab-4829-a682-cb9ff63e05bf
         - ref!! 99e38052-0854-41a5-a6ef-c30682874170
-        - ref!! 01c5325f-09d7-4d50-a92f-782f6db6b4f5
+        - ref!! 461bb733-0350-44ac-97e8-3fab73db26d9
     Parts:
         -   Entity:
-                Id: 01c5325f-09d7-4d50-a92f-782f6db6b4f5
-                Name: Sphere
+                Id: 461bb733-0350-44ac-97e8-3fab73db26d9
+                Name: Teapot
                 Components:
-                    ee3f135d5216eb02d3117bc0c2014a5b: !TransformComponent
-                        Id: 03bee583-17be-4cca-8642-a970d3076cd9
-                        Position: {X: 0.0, Y: 0.5, Z: 0.0}
+                    0629314d2aee212c8a79958edf10f940: !TransformComponent
+                        Id: 93cbb3d0-ada7-40ab-a34e-abc2273b1ad0
+                        Position: {X: 0.0, Y: 0.7, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
-                    43c3630c3038e2fc48946a0b8534fe4a: !ModelComponent
-                        Id: cf1baa2d-0d3b-48f3-a034-3a628fed1ae6
-                        Model: cd2c8e2b-d2bf-4b0b-89c4-87d2156644ad:Sphere
+                    8cd6b699f87de50219849cddb1483776: !ModelComponent
+                        Id: c2216ce9-64e7-4f37-b98a-209d1cd92f64
+                        Model: 60499c8c-13d7-44d0-a17f-a25abd069e7b:Teapot
                         Materials: {}
         -   Entity:
                 Id: 5817852e-c87d-4e5c-bb10-8658c3d148b5
