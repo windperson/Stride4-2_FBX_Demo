@@ -11,6 +11,7 @@ Hierarchy:
         - ref!! ff242851-34ab-4829-a682-cb9ff63e05bf
         - ref!! 99e38052-0854-41a5-a6ef-c30682874170
         - ref!! 461bb733-0350-44ac-97e8-3fab73db26d9
+        - ref!! d42a19e1-90ca-4379-9ef6-c6eb206dea06
     Parts:
         -   Entity:
                 Id: 461bb733-0350-44ac-97e8-3fab73db26d9
@@ -26,6 +27,9 @@ Hierarchy:
                         Id: c2216ce9-64e7-4f37-b98a-209d1cd92f64
                         Model: 60499c8c-13d7-44d0-a17f-a25abd069e7b:Teapot
                         Materials: {}
+                    72e78762d7d51b60fca12f0d05265d5b: !MyDemoCar.RotatePot,MyDemoCar
+                        Id: 88d15f16-e6c7-4173-9d08-8d7a2661b6f0
+                        Rotation Speed: 2.5
         -   Entity:
                 Id: 5817852e-c87d-4e5c-bb10-8658c3d148b5
                 Name: Directional light
@@ -89,6 +93,24 @@ Hierarchy:
                         KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
                         MouseRotationSpeed: {X: 1.0, Y: 1.0}
                         TouchRotationSpeed: {X: 1.0, Y: 0.7}
+        -   Entity:
+                Id: d42a19e1-90ca-4379-9ef6-c6eb206dea06
+                Name: GameProfiler
+                Components:
+                    c7b9d5b53373ea5906e1924f07d062a9: !TransformComponent
+                        Id: b0af6cac-d9b1-4b6a-b36b-6489c2801c08
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    5a2525e2d4dda03d8fddaa45ff6e229f: !MyDemoCar.GameProfiler,MyDemoCar
+                        Id: 2131e6d6-4ff0-4b9f-a862-66d213e51c07
+                        Enabled: true
+                        TextColor: {R: 144, G: 238, B: 144, A: 255}
+                        RefreshTime: 500.0
+                        SortingMode: ByTime
+                        FilteringMode: Fps
+                        ResultPage: 1
         -   Entity:
                 Id: ff242851-34ab-4829-a682-cb9ff63e05bf
                 Name: Skybox
