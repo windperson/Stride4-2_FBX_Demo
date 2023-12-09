@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDemoCar.Windows", "MyDemoCar.Windows\MyDemoCar.Windows.csproj", "{2DBA8AF5-530E-4E5E-B1E5-E1B5C9C14039}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDemoCar", "MyDemoCar\MyDemoCar.csproj", "{D847A987-26D7-437C-BCD0-D17F708DA5EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DBA8AF5-530E-4E5E-B1E5-E1B5C9C14039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBA8AF5-530E-4E5E-B1E5-E1B5C9C14039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBA8AF5-530E-4E5E-B1E5-E1B5C9C14039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBA8AF5-530E-4E5E-B1E5-E1B5C9C14039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D847A987-26D7-437C-BCD0-D17F708DA5EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D847A987-26D7-437C-BCD0-D17F708DA5EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D847A987-26D7-437C-BCD0-D17F708DA5EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D847A987-26D7-437C-BCD0-D17F708DA5EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
