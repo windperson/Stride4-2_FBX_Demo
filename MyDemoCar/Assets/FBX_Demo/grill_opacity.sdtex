@@ -1,0 +1,8 @@
+!Texture
+Id: 777934ee-025b-4c3a-bc9d-3547164ad4d2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/FBX_Demo/FC_04.fbm/grill_opacity.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

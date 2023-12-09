@@ -1,0 +1,8 @@
+!Texture
+Id: fc1e16b0-731f-4991-9afd-c3d41b415dfa
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/FBX_Demo/FC_04.fbm/pattern_4_spec.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

@@ -1,0 +1,8 @@
+!Texture
+Id: c58a1f37-e392-4dee-9c0d-4282c888ab51
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/FBX_Demo/FC_04.fbm/screw_threads_nm.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

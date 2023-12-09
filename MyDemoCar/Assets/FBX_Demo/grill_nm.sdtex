@@ -1,0 +1,8 @@
+!Texture
+Id: d9c33f02-a32b-4a37-902d-a8493f0aab3a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/FBX_Demo/FC_04.fbm/grill_nm.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

@@ -10,26 +10,27 @@ Hierarchy:
         - ref!! 5817852e-c87d-4e5c-bb10-8658c3d148b5
         - ref!! ff242851-34ab-4829-a682-cb9ff63e05bf
         - ref!! 99e38052-0854-41a5-a6ef-c30682874170
-        - ref!! 461bb733-0350-44ac-97e8-3fab73db26d9
+        - ref!! 4221b37d-f4d6-465b-a5dd-4373fd5cbb56
         - ref!! d42a19e1-90ca-4379-9ef6-c6eb206dea06
     Parts:
         -   Entity:
-                Id: 461bb733-0350-44ac-97e8-3fab73db26d9
-                Name: Teapot
+                Id: 4221b37d-f4d6-465b-a5dd-4373fd5cbb56
+                Name: FC_04
                 Components:
-                    0629314d2aee212c8a79958edf10f940: !TransformComponent
-                        Id: 93cbb3d0-ada7-40ab-a34e-abc2273b1ad0
-                        Position: {X: 0.0, Y: 0.7, Z: 0.0}
+                    cc0ef5a37193cae7fd1bdc8d95f56a88: !TransformComponent
+                        Id: fee0c460-6130-4e3c-82ce-2937c9e02fce
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
-                    8cd6b699f87de50219849cddb1483776: !ModelComponent
-                        Id: c2216ce9-64e7-4f37-b98a-209d1cd92f64
-                        Model: 60499c8c-13d7-44d0-a17f-a25abd069e7b:Teapot
-                        Materials: {}
-                    72e78762d7d51b60fca12f0d05265d5b: !MyDemoCar.RotatePot,MyDemoCar
-                        Id: 88d15f16-e6c7-4173-9d08-8d7a2661b6f0
-                        Rotation Speed: 2.5
+                    8a23502f20caaab4587bb00f70eac554: !ModelComponent
+                        Id: 8586766a-2e93-4fa0-9582-f77d8e2ef5d2
+                        Model: b3e1de83-569d-4003-9f5b-1fcb250cd4e8:FBX_Demo/FC_04
+                        Materials:
+                            f93995c1c5244cd747bc33248982b1fb~9: dc0395d8-a525-4770-9383-16b2f7706453:FBX_Demo/floormat
+                    f84115b7155f4f44078ceb4f7e8a2d5e: !MyDemoCar.RotatePot,MyDemoCar
+                        Id: 314b6fa7-b868-4b1f-972d-c70d97c91b94
+                        Rotation Speed: 0.6
         -   Entity:
                 Id: 5817852e-c87d-4e5c-bb10-8658c3d148b5
                 Name: Directional light
@@ -75,7 +76,7 @@ Hierarchy:
                 Components:
                     479da8b1ab049137d2774c55f96de0a3: !TransformComponent
                         Id: 4e987892-8ffa-43a3-865b-3212ef2717f9
-                        Position: {X: 2.6, Y: 0.6, Z: -1.0}
+                        Position: {X: 4.0, Y: 0.6, Z: -1.0}
                         Rotation: {X: 0.0, Y: 0.82903755, Z: 0.0, W: 0.5591929}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}

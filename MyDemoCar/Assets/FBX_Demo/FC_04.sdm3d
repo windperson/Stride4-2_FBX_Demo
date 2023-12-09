@@ -1,0 +1,144 @@
+!Model
+Id: b3e1de83-569d-4003-9f5b-1fcb250cd4e8
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/FBX_Demo/FC_04.fbx
+Skeleton: e2927d9f-a2cc-4841-97cb-b85cd721337a:FBX_Demo/FC_04 Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    de4ec99dbe363d05a8eaa8530cb6b63e:
+        Name: body
+        MaterialInstance:
+            Material: b251e8d5-c5f1-4667-ae6b-086435a5955e:FBX_Demo/body
+    88dc9198a8307e6277ee2899d2c1f89e:
+        Name: plastic_2
+        MaterialInstance:
+            Material: f0082c2b-a223-4ec7-a4cc-a18f120c092f:FBX_Demo/plastic_2
+    7f7c30fc86447cf36f00482eccfbb618:
+        Name: Material
+        MaterialInstance:
+            Material: 77e2efe6-2bf7-475d-8ed1-e8556d7db7bf:FBX_Demo/Material
+    b8c2206344109c3a935e321878d49d36:
+        Name: glass
+        MaterialInstance:
+            Material: 1ced747b-0066-4cb9-ad7a-566c52081325:FBX_Demo/glass
+    b4da1e120c88f70a85edff4f8a272e52:
+        Name: plastic_smooth
+        MaterialInstance:
+            Material: 67375e52-d76a-4f75-8054-d792fde84361:FBX_Demo/plastic_smooth
+    e4121b4e45a3ab43b9af521ff01facba:
+        Name: Material.006
+        MaterialInstance:
+            Material: a67639b7-b2a5-4ab9-9ed7-8b0340896563:FBX_Demo/Material.006
+    667311936bb711306e65f4ff8d2dc435:
+        Name: plastic_matte
+        MaterialInstance:
+            Material: a9a3ae73-06e4-450d-a90c-743f5d22799f:FBX_Demo/plastic_matte
+    597ff11ad674cd2df930e578fd31f5b4:
+        Name: metal_1
+        MaterialInstance:
+            Material: 42d549bf-5785-4598-b4a7-3036559edbaa:FBX_Demo/metal_1
+    08ade052f977a2290a91ed83ba8952be:
+        Name: Material.008
+        MaterialInstance:
+            Material: a803928c-af42-46ec-8b20-ca280ab9b73e:FBX_Demo/Material.008
+    d4a88134c7ad8add5ace72a96057c83c:
+        Name: floormat
+        MaterialInstance:
+            Material: dc0395d8-a525-4770-9383-16b2f7706453:FBX_Demo/floormat
+            IsShadowCaster: false
+    876decfb5d5d2896c15c14052d7f5fad:
+        Name: metal
+        MaterialInstance:
+            Material: 1634068f-6648-491f-8cc2-cf02b5e78f3e:FBX_Demo/metal
+    b48e63b1db5626aba603ccd5523f94f9:
+        Name: bolt_metal
+        MaterialInstance:
+            Material: f629f880-32a5-4b67-a789-c424bbd8e062:FBX_Demo/bolt_metal
+    d5c04768dc045512f8736ba741d076cc:
+        Name: bolt_metal_threads
+        MaterialInstance:
+            Material: 94ae4591-5b49-4b8b-aa05-030c54e5d6b2:FBX_Demo/bolt_metal_threads
+    fd2f3fcd95b6b33ee646723a3b672507:
+        Name: plastic_shiny
+        MaterialInstance:
+            Material: d98e5764-326a-4a3a-8d69-0f3969343594:FBX_Demo/plastic_shiny
+    6db2116830259984187627d6a8c6bfdb:
+        Name: taillight_cover
+        MaterialInstance:
+            Material: e20fbfd8-6585-45e3-8750-b9e59529ab96:FBX_Demo/taillight_cover
+    4ff5b0b52c4a6c28380e6e79500dc60e:
+        Name: taillight_chrome
+        MaterialInstance:
+            Material: fa8a54a0-46e3-4e2d-b67c-ac17a9d5a53c:FBX_Demo/taillight_chrome
+    5ff2916652f677fadfce134417266b1b:
+        Name: blocker.001
+        MaterialInstance:
+            Material: cc24bc5f-e143-4060-bb27-b20b21f9691b:FBX_Demo/blocker.001
+    e4883e5b6d69307541a653984c222ad4:
+        Name: metal_dark.001
+        MaterialInstance:
+            Material: f52c7035-536a-488b-a069-696e30ae8f7a:FBX_Demo/metal_dark.001
+    2cc72940e58793870170ba7430510643:
+        Name: plastic_smooth.002
+        MaterialInstance:
+            Material: 04c7539f-74a3-4f60-b7a9-52b6e2fe7d0c:FBX_Demo/plastic_smooth.002
+    7dc69fcda9df5ff76096b6b9e3eaf820:
+        Name: pattern_4.001
+        MaterialInstance:
+            Material: 9db36411-0cab-4424-a6a0-2a97eb851643:FBX_Demo/pattern_4.001
+    7d97fd908e19b1e5e84114cfbb7f2b2e:
+        Name: plastic_smooth.001
+        MaterialInstance:
+            Material: f4ebad96-d7f2-4168-a58b-0e1f267e4740:FBX_Demo/plastic_smooth.001
+    ef8fa494497fe02c9d3e6e363bf4d04b:
+        Name: metal_1.001
+        MaterialInstance:
+            Material: 6c341dcc-4c70-49ce-8636-f6f36388ae56:FBX_Demo/metal_1.001
+    1c20930018eeda003158c4c810262378:
+        Name: chrome
+        MaterialInstance:
+            Material: 54415a23-9b23-45bf-bc51-fcef44673c24:FBX_Demo/chrome
+    5208f239600d1564bb7b791a17102ef6:
+        Name: Material.031
+        MaterialInstance:
+            Material: a91fe8ac-167d-41fc-9620-1a9b766a3019:FBX_Demo/Material.031
+    d9fb5e853798b44d60c1c63305207926:
+        Name: Material.032
+        MaterialInstance:
+            Material: 201dc555-0476-495a-848b-6da218d116c7:FBX_Demo/Material.032
+    875ca7c3839c25e6090168e9e67f5694:
+        Name: rims
+        MaterialInstance:
+            Material: ea129802-a5fd-43d8-917d-a70fb66a82e3:FBX_Demo/rims
+    eb05cc67f48fbb4b1ca208945e190efc:
+        Name: rubber_tires
+        MaterialInstance:
+            Material: 45cad8f0-e32d-4cdc-909c-bc58f40cc891:FBX_Demo/rubber_tires
+    154dada55c9843f93df12424a22e132e:
+        Name: tire_protector
+        MaterialInstance:
+            Material: 1b4a2ed9-b2c0-40e2-b1ab-70c6af986990:FBX_Demo/tire_protector
+    6e248e98bc9e98944731d52269ab00d3:
+        Name: brakeCalipers
+        MaterialInstance:
+            Material: d99348f2-96da-406a-92cf-9ba2bf20b1fd:FBX_Demo/brakeCalipers
+    f82959d394208c25c92036738abe28c0:
+        Name: light001.001
+        MaterialInstance:
+            Material: 8eba911c-c0c0-4f46-988a-147ff2b0f458:FBX_Demo/light001.001
+    704c2b7237cdc8ccdffab602b8bed408:
+        Name: metal_1.002
+        MaterialInstance:
+            Material: 656b56a3-0ecd-47f5-acc9-b4aab66d2480:FBX_Demo/metal_1.002
+    bd0e72c4959bd1ef20374842b54dfa89:
+        Name: grill.001
+        MaterialInstance:
+            Material: b347aa47-2106-47e7-8b07-cd723e4c9f6b:FBX_Demo/grill.001
+    4f303403939f64ab10d6816efb65e470:
+        Name: chrome.002
+        MaterialInstance:
+            Material: 84807d73-0d83-4ce8-8fdf-ab7765eab877:FBX_Demo/chrome.002
+Modifiers: {}
+~SourceHashes:
+    edefa8c191d98bfdfe2dda399739d5a1~../../Resources/FBX_Demo/FC_04.fbx: 34bf21011861ea2b00da0fe0e25765d5

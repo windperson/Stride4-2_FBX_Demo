@@ -1,0 +1,8 @@
+!Texture
+Id: 3b267e7f-3a67-45dd-af68-f92a195eafd9
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/FBX_Demo/FC_04.fbm/ao_shadow.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

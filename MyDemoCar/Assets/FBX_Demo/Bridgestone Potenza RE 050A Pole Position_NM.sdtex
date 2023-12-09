@@ -1,0 +1,8 @@
+!Texture
+Id: dfe5f7d0-5a53-4d71-a406-148636d69cff
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/FBX_Demo/FC_04.fbm/Bridgestone Potenza RE 050A Pole Position_NM.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false
