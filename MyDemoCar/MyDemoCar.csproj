@@ -14,5 +14,9 @@
     <PackageReference Include="Stride.UI" Version="4.2.0.2043" />
 
     <PackageReference Include="Stride.Core.Assets.CompilerApp" Version="4.2.0.2043" IncludeAssets="build;buildTransitive" />
+
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+
+    <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
   </ItemGroup>
 </Project>
